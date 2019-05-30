@@ -2,7 +2,7 @@
 ## Description
 
 This repository contains the PyTorch code for the paper
-> Yikai Zhang\*,  Hui Qu\*, Dimitris Metaxas and Chao Chen. *Taming the Noisy Gradient: Train Deep Neural Networks with Small Batch Sizes*. IJCAI, 2019. (* equal contributions)
+> Yikai Zhang\*,  Hui Qu\*, Chao Chen and Dimitris Metaxas. *Taming the Noisy Gradient: Train Deep Neural Networks with Small Batch Sizes*. IJCAI, 2019. (* equal contributions)
 
 The trajectory regularized algorithm iteratively applies a proximal type regularizer to make loss function strongly convex, thus stablizes the gradient when the batch size is small,
 leading to better training performance.
@@ -37,7 +37,7 @@ If you find this code helpful, please cite our work:
 ```
 @inproceedings{TRAlgorithm,
   title={Taming the Noisy Gradient: Train Deep Neural Networks with Small Batch Sizes},
-  author={Zhang, Yikai and Qu, Hui and Metaxas, Dimitris and Chen, Chao},
+  author={Zhang, Yikai and Qu, Hui and Chen, Chao and Metaxas, Dimitris},
   booktitle={International Joint Conference on Artificial Intelligence (IJCAI)},
   year={2019}
 }
